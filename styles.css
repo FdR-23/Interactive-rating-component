@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: Overpass;
+    background-color: hsl(216, 12%, 8%);
+
+}
+
+.card {
+    background-color: hsl(213, 19%, 15%);
+    width: 350px;
+    border-radius: 2rem;
+}
+
+.icon_start {
+    background-color: hsl(213, 19%, 18%);
+    padding: 0.75rem;
+    border-radius: 100%;
+}
+
+.container_1 {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+
+.container_1 h1 {
+    color: hsl(0, 0%, 100%);
+
+}
+
+.container_1 p {
+    color: hsl(216, 12%, 54%);
+    font-weight: 400;
+    margin: 0%;
+    font-size: 13px;
+}
+
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    font-family: Overpass;
+    font-weight: 700;
+
+    margin: 1.7rem 0;
+
+}
+
+.bn_rating {
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 100%;
+    padding: 0.8rem 1.05rem;
+    border: none;
+    cursor: pointer;
+}
+
+
+.bn_rating:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+.selected {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(213, 100%, 66%);
+}
+
+
+.bn_submit {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    padding: 0.8rem;
+    font-family: Overpass;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+
+
+.bn_submit:active {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+.container_2 {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem;
+}
+.container_2 img{
+    width: 150px;
+}
+
+.contain_rainting{
+    padding: 0.5rem ;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(25, 97%, 53%);
+    border-radius: 2rem;
+    font-weight: 400;
+    font-size: 13px;
+    margin: 1rem 1rem 0.5rem;
+}
+.container_2 h2 {
+    color: hsl(0, 0%, 100%);
+    font-size: x-large;
+    margin: 1rem 1rem 0.5rem;
+}
+
+.container_2 p {
+    color: hsl(216, 12%, 54%);
+    font-weight: 400;
+    margin: 0%;
+    text-align: center;
+    font-size: 13px;
+    line-height: 1.2rem;
+}
